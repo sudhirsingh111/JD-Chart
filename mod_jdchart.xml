@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+	<name>hello world!!</name>
+	<author>JoomDev</author>
+	<version>1.0.0</version>
+	<description>Created module for practice</description>
+	<files>
+		<filename>mod_jdchart.xml</filename>
+		<filename module="mod_jdchart">mod_jdchart.php</filename>
+		<!-- <filename>index.html</filename> -->
+		<filename>helper.php</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+		<folder>sql</folder>
+	</files> 
+
+	<config>
+	<fields name="params">
+					<fieldset name="basic">
+							<field
+							name="fields"
+							type="subform"
+							label="Subform Field"
+							description="Subform Field Description"
+							multiple="true"
+							min="1"
+							max="10"
+							>
+						<form>
+							<field
+								name="wordpress"
+								type="text"
+								label="wordpress"
+								/>
+								
+							 <field
+								name="joomla"
+								type="text"
+								label="joomla"
+								/>
+								
+							 <field
+								name="drupal"
+								type="text"
+								label="drupal"
+								/>
+						 
+						</form>
+				</field>
+
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>
