@@ -6,7 +6,7 @@
 	<description>Created module for practice</description>
 	<files>
 		<filename>mod_jdchart.xml</filename>
-		<filename module="mod_jdchart">mod_jdchart.php</filename>
+		<filename module="mod_jdchartn">mod_jdchart.php</filename>
 		<!-- <filename>index.html</filename> -->
 		<filename>helper.php</filename>
 		<filename>tmpl/default.php</filename>
